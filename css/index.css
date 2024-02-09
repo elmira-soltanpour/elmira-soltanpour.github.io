@@ -4,7 +4,7 @@
 
 body {
 
-    height: 3000px;
+
     font-family: sans-serif;
 }
 
@@ -104,14 +104,26 @@ body {
         list-style-type: none;
     }
 
-    a{
+    a {
         text-decoration: none;
         color: rgb(160, 160, 160);
         font-size: calc(1vw + 8px);
     }
 
-    a:hover{
+    a:hover {
         color: rgb(80, 80, 80);
+    }
+
+    .custim-position {
+        position: relative;
+    }
+
+    .costum-h4 {
+        position: absolute;
+        left: 0px;
+        bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
@@ -122,6 +134,8 @@ body {
         height: 70px;
         position: fixed;
     }
+
+
 }
 
 @media all and (min-width:768px) and (max-width:991px) {}
