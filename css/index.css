@@ -4,17 +4,27 @@
 
 body {
 
-
+    height: 100000px;
     font-family: sans-serif;
 }
 
 @media all and (max-width:575px) {
+
     .header {
 
         width: 100%;
         height: 70px;
-        background-color: #ffffff;
+        background-color: white;
         position: fixed;
+        z-index: 1;
+    }
+
+    .custom-bg1 {
+        height: 560px;
+        margin-top: 40px;
+        background: url(../images/1.jpg);
+        background-position: center;
+        background-size: cover;
     }
 
     button {
@@ -24,23 +34,23 @@ body {
 
 
     h5 {
-        top: 15%;
+        top: 18%;
         font-size: calc(1vw + 6px);
     }
 
     h2 {
-        top: 18%;
+        top: 25%;
         font-size: calc(1vw + 20px);
     }
 
     p {
-        top: 28%;
+        top: 42%;
         font-size: calc(1vw + 8px);
     }
 
     .button1 {
 
-        top: 36%;
+        top: 60%;
         padding: 0px 40px;
         line-height: 48px;
         background: rgb(90, 90, 90);
@@ -60,8 +70,8 @@ body {
 
     .button2 {
 
-        left: 50%;
-        top: 36%;
+
+        top: 70%;
         padding: 0px 30px;
         line-height: 48px;
         background: rgba(255, 255, 255, 0.4);
@@ -119,29 +129,63 @@ body {
 
 
     .custom-h4 {
-        position: absolute;
-        top: 75%;
+
+        top: 70%;
         transition: all 300ms linear 0s;
         cursor: pointer;
     }
-    .custom-p{
-        position: absolute;
-        top: 85%;
-        cursor: pointer;
+
+    .custom-p {
+        color: rgb(140, 140, 140);
+        top: 80%;
+
     }
 
     .custom-h4:hover {
         color: rgb(80, 80, 80);
     }
 
-    .custom-img{
-        transition: all 300ms linear 0s;
-      
+    .custom-parent1 {
+        margin: 10px auto;
     }
-    .custom-img:hover{
-       
-        background-color:red;
+
+    .custom-section {
+        height: 450px;
+        background-color: #f9f9ff;
     }
+
+    .custom-paragraf {
+        height: 200px;
+        background-color: white;
+    }
+
+    .color {
+        color: #ffc000;
+    }
+
+    .custom-ul {
+        height: 60px;
+        width: 92%;
+        top: 65%;
+        opacity: 0;
+        font-size: 10px;
+        transition: all 300ms linear 0ms;
+    }
+
+    .custom-ul:hover {
+        bottom: 15px;
+        opacity: 1;
+    }
+
+    .custom-hover{
+        transition: all 300ms linear 0ms;
+    }
+
+    .custom-hover:hover{
+        color: rgb(80, 80, 80);
+    }
+
+
 }
 
 @media all and (min-width:576px) and (max-width:767px) {
