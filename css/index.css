@@ -3,8 +3,6 @@
 }
 
 body {
-
-
     font-family: sans-serif;
 }
 
@@ -88,17 +86,14 @@ body {
     }
 
     .box1 {
-
         width: 92%;
         height: 200px;
-
         transition: all 300ms linear 0s;
         border: 1px solid rgb(230, 230, 230);
     }
 
     .box1:hover {
         border-color: white;
-
         box-shadow: 0px 5px 30px 0px rgba(153, 153, 153, 0.1);
     }
 
@@ -164,8 +159,6 @@ body {
     }
 
 
-
-
     .custom-ul {
         position: absolute;
         left: 0px;
@@ -200,8 +193,8 @@ body {
         color: rgb(80, 80, 80);
     }
 
-    .custom-width {
-        height: 1650px;
+    .custom-height {
+        height: 1700px;
         background-color: #f9f9ff;
     }
 
@@ -282,6 +275,12 @@ body {
 
     }
 
+    .custom-img {
+
+        margin-left: 10px;
+
+    }
+
     .button5 {
         height: 40px;
         width: 35px;
@@ -306,7 +305,319 @@ body {
     }
 }
 
-@media all and (min-width:576px) and (max-width:767px) {}
+@media all and (min-width:576px) and (max-width:767px) {
+    .header {
+
+        width: 100%;
+        height: 70px;
+        background-color: white;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .custom-bg1 {
+        height: 560px;
+        margin-top: 40px;
+        background: url(../images/1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    button {
+        color: rgb(90, 90, 90);
+        border: 0;
+    }
+
+
+    h5 {
+        left: 15%;
+        top: 18%;
+        font-size: calc(1vw + 6px);
+    }
+
+    h2 {
+        left: 15%;
+        top: 25%;
+        font-size: calc(1vw + 20px);
+    }
+
+    p {
+        left: 15%;
+        top: 42%;
+        font-size: calc(1vw + 8px);
+    }
+
+    .button1 {
+        left: 15%;
+        top: 60%;
+        padding: 0px 40px;
+        line-height: 48px;
+        background: rgb(90, 90, 90);
+        color: white;
+        border: 1px solid rgb(90, 90, 90);
+        border-radius: 5px;
+
+        font-family: sans-serif;
+        text-decoration: none;
+        transition: all 300ms linear 0s;
+    }
+
+    .button1:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: rgb(90, 90, 90);
+    }
+
+    .button2 {
+
+        left: 42%;
+        top: 60%;
+        padding: 0px 30px;
+        line-height: 48px;
+        background: rgba(255, 255, 255, 0.4);
+        color: white;
+        border: 1px solid #bebfc4;
+        border-radius: 5px;
+        font-size: 14px;
+        font-family: sans-serif;
+        transition: all 300ms linear 0s;
+    }
+
+    .button2:hover {
+        color: rgb(90, 90, 90);
+    }
+
+    .box1 {
+        width: 92%;
+        height: 200px;
+        transition: all 300ms linear 0s;
+        border: 1px solid rgb(230, 230, 230);
+    }
+
+    .box1:hover {
+        border-color: white;
+        box-shadow: 0px 5px 30px 0px rgba(153, 153, 153, 0.1);
+    }
+
+    .test {
+        margin-left: 30px;
+        width: 80%;
+        line-height: 40px;
+        border-bottom: 1px solid rgb(210, 210, 210);
+        padding: 0;
+
+    }
+
+
+    ul {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(160, 160, 160);
+        font-size: calc(1vw + 8px);
+        transition: all 300ms linear 0s;
+    }
+
+    a:hover {
+        color: rgb(80, 80, 80);
+    }
+
+    .custom-parent1 {
+        display: block;
+        margin: auto;
+        padding: auto;
+    }
+
+
+    .custom-h4 {
+
+        top: 70%;
+        transition: all 300ms linear 0s;
+        cursor: pointer;
+    }
+
+    .custom-p {
+        color: rgb(140, 140, 140);
+        top: 80%;
+
+    }
+
+    .custom-h4:hover {
+        color: rgb(80, 80, 80);
+    }
+
+    .custom-section2 {
+        margin-top: 70px;
+
+        height: 500px;
+        background-color: #f9f9ff;
+    }
+
+    .custom-paragraf {
+        margin-top: 40px;
+        height: 200px;
+        width: 85%;
+        background-color: white;
+    }
+
+    .color {
+        color: #ffc000;
+    }
+
+
+    .custom-ul {
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        height: 20%;
+        bottom: -10px;
+        top: 55%;
+        text-align: center;
+        opacity: 0;
+        transition: all 300ms linear 0s;
+        background: #fff;
+    }
+
+    .custom-margin {
+        font-size: 14px;
+        color: #dddddd;
+        margin-right: 20px;
+        line-height: 50px;
+    }
+
+    .custom-ul:hover {
+        opacity: 1;
+        bottom: 0px;
+    }
+
+    .custom-hover {
+
+        transition: all 300ms linear 0s;
+    }
+
+    .custom-hover:hover {
+        color: rgb(80, 80, 80);
+    }
+
+    .custom-height {
+        height: 1850px;
+        background-color: #f9f9ff;
+    }
+
+    .custom-a {
+        transition: all 300ms linear 0ms;
+    }
+
+    .custom-a:hover {
+        color: rgb(90, 90, 90);
+    }
+
+    .custom-img {
+
+        margin-left: 180px;
+
+    }
+
+    .custom-bg2 {
+        height: 600px;
+        width: 100%;
+        background: url(../images/17.webp);
+        background-position: center;
+        background-size: cover;
+    }
+
+    h1 {
+        left: 50%;
+        left: 5%;
+        right: 5%;
+
+    }
+
+    .p-akhr {
+        top: 25%;
+        left: 5%;
+        right: 5%;
+
+    }
+
+    .button4 {
+        position: absolute;
+        text-align: center;
+        top: 60%;
+        background-color: rgb(80, 80, 80);
+        width: 200px;
+        height: 55px;
+        left: 50%;
+        margin-left: -100px;
+        color: white;
+    }
+
+    .button4:hover {
+        color: #ffc000;
+    }
+
+    .parent2 {
+        height: 755px;
+        background-color: #222222;
+
+    }
+
+    .custom-color {
+        color: rgb(100, 100, 100);
+    }
+
+    .list {
+        margin-left: -5px;
+        margin-right: -5px;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        line-height: 35px;
+    }
+
+    input {
+        outline: none;
+        background: transparent;
+        height: 40px;
+        width: 90%;
+        margin: 10px auto;
+        padding-left: 10px;
+        font-size: 14px;
+        color: rgb(90, 90, 90);
+
+
+    }
+
+    .custom-img {
+
+        margin-left: 10px;
+
+    }
+
+    .button5 {
+        height: 40px;
+        width: 35px;
+        right: 5%;
+        top: 17%;
+
+    }
+
+    .p-center {
+        margin: 10px auto;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .custom-center {
+        margin: 10px auto;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+}
 
 @media all and (min-width:768px) and (max-width:991px) {}
 
