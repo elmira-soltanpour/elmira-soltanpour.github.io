@@ -6,6 +6,12 @@ body {
     font-family: sans-serif;
 }
 
+.custom-position {
+    top: 5px;
+    left: 10px;
+}
+
+
 @media all and (max-width:575px) {
 
     .header {
@@ -19,16 +25,12 @@ body {
 
     .custom-bg1 {
         height: 560px;
-        margin-top: 40px;
         background: url(../images/1.jpg);
         background-position: center;
         background-size: cover;
     }
 
-    button {
-        color: rgb(90, 90, 90);
-        border: 0;
-    }
+
 
 
     h5 {
@@ -194,7 +196,7 @@ body {
     }
 
     .custom-height {
-        height:70%;
+        height: 70%;
         background-color: #f9f9ff;
     }
 
@@ -317,7 +319,6 @@ body {
 
     .custom-bg1 {
         height: 560px;
-        margin-top: 40px;
         background: url(../images/1.jpg);
         background-position: center;
         background-size: cover;
@@ -428,7 +429,6 @@ body {
         margin: auto;
         padding: auto;
     }
-
 
     .custom-h4 {
 
@@ -614,6 +614,19 @@ body {
         margin: 10px auto;
         align-items: center;
         justify-content: center;
+
+    }
+
+    .card-header {
+
+        background: transparent;
+        border: none;
+    }
+
+    .center-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 
