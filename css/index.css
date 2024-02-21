@@ -945,6 +945,52 @@ body {
 
     }
 
+    .button5 {
+        height: 40px;
+        width: 35px;
+        right: 5%;
+        top: 17%;
+
+    }
+
+    .list-instafeed {
+        margin-left: -5px;
+        margin-right: -5px;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .p-center {
+        margin: 10px auto;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .custom-center {
+        margin: 10px auto;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .card-header {
+
+        background: transparent;
+        border: none;
+    }
+
+    .center-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .custom-border{
+        border-top:1px solid red ;
+    }
+
 }
 
 @media all and (min-width:992px) and (max-width:1199px) {}
