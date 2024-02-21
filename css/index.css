@@ -261,6 +261,10 @@ body {
         padding: 0px;
     }
 
+    .imgeees {
+        width: 100%;
+    }
+
     input {
         outline: none;
         background: transparent;
@@ -301,6 +305,15 @@ body {
         align-items: center;
         justify-content: center;
 
+    }
+
+    .custom-hover1 {
+        transition: all 200ms linear 0s;
+    }
+
+    .custom-hover1:hover {
+
+        opacity: 0.3;
     }
 }
 
@@ -343,6 +356,10 @@ body {
         left: 15%;
         top: 42%;
         font-size: calc(1vw + 8px);
+    }
+
+    .imgeees {
+        width: 100%;
     }
 
     .button1 {
@@ -405,6 +422,15 @@ body {
 
     }
 
+    .custom-hover1 {
+        transition: all 200ms linear 0s;
+    }
+
+    .custom-hover1:hover {
+
+        opacity: 0.3;
+    }
+
 
     ul {
         list-style-type: none;
@@ -421,11 +447,7 @@ body {
         color: rgb(80, 80, 80);
     }
 
-    .custom-parent1 {
-        display: block;
-        margin: auto;
-        padding: auto;
-    }
+
 
     .custom-h4 {
 
@@ -716,12 +738,7 @@ body {
         box-shadow: 0px 5px 30px 0px rgba(153, 153, 153, 0.1);
     }
 
-    .custom-imges{
-        height: 560px;
-        background: url(../images/1.jpg);
-        background-position: center;
-        background-size: cover;
-    }
+
 
     .test {
         margin-left: 30px;
@@ -745,6 +762,64 @@ body {
 
     a:hover {
         color: rgb(80, 80, 80);
+    }
+
+    .parent3 {
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .position-custom {
+
+        position: absolute;
+        height: 38%;
+        background-color: #ffffff;
+        z-index: 2;
+        top: 1700px;
+        border-radius: 10px;
+
+    }
+
+    .images-custom {
+        margin-left: 300px;
+        position: relative;
+
+
+    }
+
+    .imgeees {
+
+        height: 100%;
+
+    }
+
+    .custom-h4 {
+
+        top: 70%;
+        transition: all 300ms linear 0s;
+        cursor: pointer;
+    }
+
+    .custom-p {
+        color: rgb(140, 140, 140);
+        top: 80%;
+        left: 10%;
+
+    }
+
+    .custom-h4:hover {
+        color: rgb(80, 80, 80);
+    }
+
+    .custom-hover1 {
+        transition: all 200ms linear 0s;
+    }
+
+    .custom-hover1:hover {
+
+        opacity: 0.3;
     }
 }
 
