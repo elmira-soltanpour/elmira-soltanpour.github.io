@@ -30,6 +30,11 @@ body {
         background-size: cover;
     }
 
+    .color-1 {
+        color: black;
+    }
+
+
     h5 {
         top: 18%;
         font-size: calc(1vw + 6px);
@@ -334,6 +339,11 @@ body {
         background-position: center;
         background-size: cover;
     }
+
+    .color-1 {
+        color: black;
+    }
+
 
     button {
         color: rgb(90, 90, 90);
@@ -658,6 +668,11 @@ body {
         background-position: center;
         background-size: cover;
     }
+
+    .color-1 {
+        color: black;
+    }
+
 
     h5 {
         top: 18%;
@@ -1065,6 +1080,11 @@ body {
         background-size: cover;
     }
 
+    .color-1 {
+        color: black;
+    }
+
+
     h5 {
         top: 18%;
         font-size: calc(1vw + 6px);
@@ -1411,67 +1431,14 @@ body {
         width: 100%;
         height: 70px;
         background-color: white;
-
         z-index: 1;
     }
 
-    ol {
-        list-style-type: none;
-    }
-
-    .custom-list {
-        position: relative;
-
-
-
-        background-color: transparent;
-
-        transition: all 200ms linear 0s;
-    }
-
-    ol {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        width: 200px;
-        height: 100px;
-        margin-top: 24px;
-        background-color: #222222;
-        transform: scaleY(0);
-        transform-origin: bottom;
-        transition: all 300ms linear 0s;
-    }
-
-    ol>.custom-list:not(:last-of-type) {
-        border-bottom: 1px solid black;
-    }
-
-
-
-    .a-list {
-
-        display: block;
-        width: 100%;
-        height: 100%;
-        text-decoration: none;
-        font-family: sans-serif;
-
-
-        background-color: transparent;
-        transition: all 200ms linear 0s;
-    }
-
-
-
-    .custom-list:hover ol {
-        transform: scaleY(1);
-        z-index: 1;
-    }
-
-    .direction{
+    .direction {
         direction: rtl;
     }
-    .direction1{
+
+    .direction1 {
         direction: ltr;
     }
 
@@ -1483,21 +1450,33 @@ body {
     }
 
     h5 {
+        left: 16%;
         top: 18%;
         font-size: calc(1vw + 6px);
     }
 
     h2 {
+        left: 16%;
         top: 25%;
         font-size: calc(1vw + 20px);
     }
 
     p {
+        left: 16%;
         top: 42%;
         font-size: calc(1vw + 8px);
     }
+.custom-margin2{
+    width: 200px;
+    left: 50%;
+    margin-left: -100px;
+}
+    .custom-margin12{
+        margin-top: 60%;
+    }
 
     .button1 {
+        left: 16%;
         top: 60%;
         padding: 0px 40px;
         line-height: 48px;
@@ -1516,8 +1495,7 @@ body {
     }
 
     .button2 {
-
-        left: 21%;
+        left: 31%;
         top: 60%;
         padding: 0px 30px;
         line-height: 48px;
