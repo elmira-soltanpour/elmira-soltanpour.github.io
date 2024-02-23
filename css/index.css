@@ -774,7 +774,7 @@ body {
     .position-custom {
 
         position: absolute;
-        height: 38%;
+        height: 45%;
         background-color: #ffffff;
         z-index: 2;
         top: 1700px;
@@ -1026,11 +1026,7 @@ body {
 
     .custom-list {
         position: relative;
-
-
-
         background-color: transparent;
-
         transition: all 200ms linear 0s;
     }
 
@@ -1186,7 +1182,7 @@ body {
     .position-custom {
 
         position: absolute;
-        height: 38%;
+        height: 42%;
         background-color: #ffffff;
         z-index: 2;
         top: 1300px;
@@ -1466,12 +1462,14 @@ body {
         top: 42%;
         font-size: calc(1vw + 8px);
     }
-.custom-margin2{
-    width: 200px;
-    left: 50%;
-    margin-left: -100px;
-}
-    .custom-margin12{
+
+    .custom-margin2 {
+        width: 200px;
+        left: 50%;
+        margin-left: -100px;
+    }
+
+    .custom-margin12 {
         margin-top: 60%;
     }
 
@@ -1559,7 +1557,7 @@ body {
     .position-custom {
 
         position: absolute;
-        height: 38%;
+        height: 40%;
         background-color: #ffffff;
         z-index: 2;
         top: 1300px;
