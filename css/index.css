@@ -1463,6 +1463,40 @@ body {
         font-size: calc(1vw + 8px);
     }
 
+    .input-group {
+
+        width: 150%;
+    }
+
+    .input-custom {
+        direction: ltr;
+        background-color: rgb(80, 80, 80);
+        color: white;
+        border: 0;
+    }
+
+    .custom-parent3 {
+        margin-top: 20px;
+        padding-left: 20px;
+
+    }
+
+    .custom-logo {
+        direction: ltr;
+        margin-top: 50px;
+        
+    }
+
+    .custom-buttom {
+        height: 41%;
+        width: 24%;
+        left: 95%;
+        top: 49%;
+        background-color: rgb(80, 80, 80);
+        border: 0;
+        color: white;
+    }
+
     .custom-margin2 {
         width: 200px;
         left: 50%;
